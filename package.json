@@ -1,0 +1,35 @@
+{
+  "name": "cypress11_gherkin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoicBrachet/Cypress11_gherkin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoicBrachet/Cypress11_gherkin/issues"
+  },
+  "homepage": "https://github.com/LoicBrachet/Cypress11_gherkin#readme",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "chai": "^4.3.7",
+    "cypress": "^11.0.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "formatter": "cucumber-json-formatter",
+      "output": "cucumber-report.json"
+    }
+  }
+}
