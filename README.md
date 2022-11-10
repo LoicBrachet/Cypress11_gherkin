@@ -116,7 +116,7 @@ npm install --save-dev chai
 
 cloner le projet
 
-    git clone https://github.com/LoicBrachet/cypress_gherkin.git
+    git clone https://github.com/LoicBrachet/Cypress11_gherkin.git
 
 à la racine du projet taper la commande suivante pour installer l'ensemble du projet
 
